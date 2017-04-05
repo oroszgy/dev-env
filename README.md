@@ -24,3 +24,10 @@ sudo apt-get install zsh
 # Setup zsh
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 chsh -s `which zsh`
+```
+
+If necssary add the ssh key to the remote server
+
+``` bash
+ssh-copy-id $HOSTNAME
+```
