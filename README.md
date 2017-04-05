@@ -2,8 +2,8 @@
 
 A note to myself on how to recreate the basics of my development environment
 
-```
-#
+``` bash
+# Install the essentials
 sudo apt-get update
 sudo apt-get install build-essential
 sudo apt-get install tmux mc vim
@@ -18,7 +18,7 @@ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && ba
 
 If the system shell is a crap, get `zsh`
 
-```
+``` bash
 # Get zsh
 sudo apt-get install zsh
 # Setup zsh
