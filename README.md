@@ -8,12 +8,12 @@ sudo apt-get update
 sudo apt-get install build-essential -y
 sudo apt-get install tmux mc vim -y
 
-# Convifgure vim
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/master/setup.sh)"
 # Get my tmux config
 wget -O - https://raw.githubusercontent.com/oroszgy/.tmux/master/install.sh | sh
 # Install miniconda
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && bash ./Miniconda3-latest-Linux-x86_64.sh && rm -rf ./Miniconda3-latest-Linux-x86_64.sh
+# Convifgure vim
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/master/setup.sh)"
 ```
 
 If the system shell is a crap, get `zsh`
