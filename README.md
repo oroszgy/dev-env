@@ -5,8 +5,8 @@ A note to myself on how to recreate the basics of my development environment
 ``` bash
 # Install the essentials
 sudo apt-get update
-sudo apt-get install build-essential
-sudo apt-get install tmux mc vim
+sudo apt-get install build-essential -y
+sudo apt-get install tmux mc vim -y
 
 # Convifgure vim
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/master/setup.sh)"
@@ -20,7 +20,7 @@ If the system shell is a crap, get `zsh`
 
 ``` bash
 # Get zsh
-sudo apt-get install zsh
+sudo apt-get install zsh -y
 # Setup zsh
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 chsh -s `which zsh`
