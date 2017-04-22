@@ -6,7 +6,7 @@ A note to myself on how to recreate the basics of my development environment
 # Install the essentials
 sudo apt-get update
 sudo apt-get install build-essential -y
-sudo apt-get install tmux mc vim -y
+sudo apt-get install tmux mc vim htop -y
 
 # Get my tmux config
 wget -O - https://raw.githubusercontent.com/oroszgy/.tmux/master/install.sh | sh
