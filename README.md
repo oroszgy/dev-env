@@ -27,14 +27,9 @@ cd ~/.vim/bundle/YouCompleteMe
 
 ## Use `oh-my-zsh`
 ``` bash
-# Setup zsh
 sh -c "$(curl -fsSL https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh)"
 USER=$(whoami)
 sudo chsh -s `which zsh` $USER
 ```
 
-If necssary add the ssh key to the remote server
-
-``` bash
-ssh-copy-id $HOSTNAME
-```
+If necssary add the ssh key to the remote server: `ssh-copy-id $HOSTNAME`
