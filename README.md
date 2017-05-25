@@ -1,6 +1,6 @@
 # Development environment for Linux machines
 
-A note to myself on recreating my development environment
+Quick install: `sh -c "$(curl -L https://raw.githubusercontent.com/oroszgy/dev-env/master/install.sh)"`
 
 ## Install the essentials
 ``` bash
