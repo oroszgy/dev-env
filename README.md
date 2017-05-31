@@ -35,7 +35,7 @@ sudo chsh -s `which zsh` $USER
 
 ### Start tmux automatically with the shell
 ```bash
-echo "if command -v tmux>/dev/null; then [[ ! xterm-256color =~ screen ]] && [ -z  ] && exec tmux attach || tmux new; fi" >> ~/.zshrc
+echo "if command -v tmux>/dev/null; then [[ ! xterm-256color =~ screen ]] && [ -z  ] && exec tmux attach; fi" >> ~/.zshrc
 ```
 
 If necessary add the ssh key to the remote server: `ssh-copy-id $HOSTNAME`
