@@ -5,7 +5,7 @@ Quick install: `sh -c "$(curl -L https://raw.githubusercontent.com/oroszgy/dev-e
 ## Install the essentials
 ``` bash
 sudo apt-get update
-sudo apt-get install build-essential cmake exuberant-ctags zsh tmux mc vim htop pv enca parallel tree jq -y
+sudo apt-get install build-essential cmake exuberant-ctags docker.io zsh tmux mc vim htop pv enca parallel tree jq -y
 ```
 
 ### Install miniconda
