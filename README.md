@@ -21,9 +21,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/oroszgy/.tmux/master/insta
 
 ### Convifgure vim
 ``` bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/oroszgy/python-vimrc/master/setup.sh)"
-cd ~/.vim/bundle/YouCompleteMe
-./install.py --clang-completer
+git clone git@github.com:oroszgy/.vim.git ~/.vim
+~/.vim/install.sh
 ```
 
 ### Use `oh-my-zsh`
@@ -31,11 +30,6 @@ cd ~/.vim/bundle/YouCompleteMe
 sh -c "$(curl -fsSL https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh)"
 USER=$(whoami)
 sudo chsh -s `which zsh` $USER
-```
-
-### Start tmux automatically with the shell
-```bash
-echo "if command -v tmux>/dev/null; then [[ ! xterm-256color =~ screen ]] && [ -z  ] && exec tmux attach; fi" >> ~/.zshrc
 ```
 
 If necessary add the ssh key to the remote server: `ssh-copy-id $HOSTNAME`
