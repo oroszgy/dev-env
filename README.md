@@ -13,6 +13,12 @@ sudo apt-get install build-essential cmake exuberant-ctags docker.io zsh tmux mc
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && bash ./Miniconda3-latest-Linux-x86_64.sh && rm -rf ./Miniconda3-latest-Linux-x86_64.sh
 ```
 
+### Install poetry
+
+```bash
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
+```
+
 ## Configure the system
 ### Get my tmux config
 ``` bash
